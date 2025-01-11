@@ -42,6 +42,32 @@ This project is a **Java-based GUI application** for managing student and depart
 
 ---
 
+## Files in the Project
+
+1. **`wellcome.java`**:
+   - Main entry point of the application.
+   - Provides navigation to different modules:
+     - Adding Student Details.
+     - Adding Department Details.
+     - Viewing Student Details.
+
+   ![Welcome Screen](login1.png)
+
+2. **`bhimahome.java`**:
+   - Manages the Student Information form.
+   - Allows data entry and saves records into the database.
+
+   ![Student Information Screen](login2.png)
+
+3. **`department.java`**:
+   - Handles Department Information.
+   - Automatically generates unique Department IDs and saves data into the database.
+
+   ![Department Information Screen](login3.png)
+
+---
+
+
 ## Database Setup
 
 To run this project, set up the following MySQL database:
