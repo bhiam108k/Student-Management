@@ -44,24 +44,26 @@ This project is a **Java-based GUI application** for managing student and depart
 
 ## Files in the Project
 
-1. **`wellcome.java`**:
+1. **`Login.java`**:
    - Main entry point of the application.
    - Provides navigation to different modules:
-     - Adding Student Details.
-     - Adding Department Details.
-     - Viewing Student Details.
+     - Entering Username.
+     - Entering Password.
+   
 
    ![Welcome Screen](https://github.com/bhiam108k/Student-Management/blob/main/login1.PNG)
 
-2. **`bhimahome.java`**:
-   - Manages the Student Information form.
-   - Allows data entry and saves records into the database.
+2. **`signgupm.java`**:
+   - for Signup.
+   - Allows to enter the personal data with username and Password.
 
    ![Student Information Screen](https://github.com/bhiam108k/Student-Management/blob/main/login2.PNG)
 
-3. **`department.java`**:
-   - Handles Department Information.
-   - Automatically generates unique Department IDs and saves data into the database.
+3. **`wellcom.java`**:
+   - After Login .
+   - Add Student Details.
+   - Add Department Details.
+   - View Students.
 
    ![Department Information Screen](https://github.com/bhiam108k/Student-Management/blob/main/login4.PNG)
 
